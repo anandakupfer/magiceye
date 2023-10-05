@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form>
+  <label for="film">Search for a film:</label>
+  <input type="text" id="film" name="film">
+</form>
+  <button onclick="search()">Search</button>
+
+<iframe src="" title="imdb" id="imdb"></iframe>
+
+<script>
+  function search() {
+    console.log("fhdfjsd")
+    let film = document.getElementById('film').value;
+    document.getElementById('imdb').src = "https://www.imdb.com/find/?q=three%20women&ref_=nv_sr_sm";
+  }
+</script>
+</body>
+</html>
